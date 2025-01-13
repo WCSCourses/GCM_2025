@@ -1,6 +1,6 @@
 # Genomics and Clinical Microbiology 2024
 
-14 - 19 January 2024
+2 - 7 February 2025
  
 Wellcome Genome Campus, Hinxton UK
 
