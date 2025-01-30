@@ -130,9 +130,9 @@ makeblastdb -in 16S_ref.fasta -dbtype nucl -out 16Sdb
 ```
 Now if you list the contents of the directory, you should see 3 new files: 16Sdb.nhr, 16Sdb.nin and 16Sdb.nsq. These together comprise the BLAST database.
 
-16S sequences have been generated for 4 specimens. You can download these from <https://github.com/WCSCourses/GCM24/raw/main/course_data/BLAST/16S.tar>.
+16S sequences have been generated for 4 specimens. You can download these from <https://github.com/WCSCourses/GCM_2025/raw/refs/heads/main/course_data_2025/BLAST/16S.tar>.
 ```
-wget https://github.com/WCSCourses/GCM24/raw/main/course_data/BLAST/16S.tar
+wget https://github.com/WCSCourses/GCM_2025/raw/refs/heads/main/course_data_2025/BLAST/16S.tar
 ```
 This file is an uncompressed tar archive containing individual files for each specimen. Extract the files using the tar command.
 ```
@@ -162,13 +162,13 @@ For these exercises we will be using the program MEGA (Molecular Evolutionary Ge
 
 ![](images/encapsulated/stop-sign.png)
 
-You have been provided with a dataset that consists of the sequences of a gene for a collection of diverse *Mycobacteria* spp. isolates spanning the known diversity of the genus. You can find these sequences in https://github.com/WCSCourses/GCM24/tree/main/course_data/phylogenetics. Download the sequence data into your account to make it easy to drag-and-drop the files. To do this, open a terminal window and type (or copy and paste):
+You have been provided with a dataset that consists of the sequences of a gene for a collection of diverse *Mycobacteria* spp. isolates spanning the known diversity of the genus. You can find these sequences in https://github.com/WCSCourses/GCM_2025/tree/main/course_data_2025/phylogenetics. Download the sequence data into your account to make it easy to drag-and-drop the files. To do this, open a terminal window and type (or copy and paste):
 
 ```
 mkdir Desktop/phylogenetics
 cd Desktop/phylogenetics
-wget https://github.com/WCSCourses/GCM24/raw/main/course_data/phylogenetics/mycobacteria.fas
-wget https://github.com/WCSCourses/GCM24/raw/main/course_data/phylogenetics/mycobacteria+C_diphtheriae.fas
+wget https://github.com/WCSCourses/GCM_2025/raw/main/course_data_2025/phylogenetics/mycobacteria.fas
+wget https://github.com/WCSCourses/GCM_2025/raw/main/course_data_2025/phylogenetics/mycobacteria+C_diphtheriae.fas
 ```
 
 You should now see a new folder on your desktop called 'phylogenetics' that contains two files. You will be able to drag-and-drop from here into the MEGA window later.
@@ -359,7 +359,7 @@ mkdir assembly
 The FASTQ files containing the short-read data can be found in a tar archive on the GitHub site for this course. Download this to the new assembly directory
 ```
 cd assembly
-wget https://github.com/WCSCourses/GCM24/raw/main/course_data/assembly/WTAC.fastq.tar
+wget https://pubmlst.org/static/training/WTAC.fastq.tar
 ```
 Extract the short-read data FASTQ files from tar archive using the `tar` command and then list the contents of the directory:
 ```
