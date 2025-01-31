@@ -356,7 +356,7 @@ Open a terminal window and make sure that you are in your home directory. Create
 cd ~
 mkdir assembly
 ```
-The FASTQ files containing the short-read data can be found in a tar archive on the GitHub site for this course. Download this to the new assembly directory
+The FASTQ files containing the short-read data can be found in an archive file in the training directory on PubMLST.org (we placed them here due to file size constraints on GitHub). Download this to the new assembly directory
 ```
 cd assembly
 wget https://pubmlst.org/static/training/WTAC.fastq.tar
