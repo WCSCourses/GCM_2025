@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Klebsiella pneumoniae subsp. pneumoniae HS11286		strain: HS11286	1125630	ASM24018v2	GCA_000240185.2	GenBank	Annotation submitted by  Bioinformatics & Microbial Genomics, State Key Laboratory of Microbial Metabolism, Shanghai Jiaotong University	Complete Genome	5333942	5682322	2011-12-27	5867	PRJNA78789	SAMN02602959
+Klebsiella pneumoniae subsp. pneumoniae HS11286		strain: HS11286	1125630	ASM24018v2	GCF_000240185.1	RefSeq	Annotation submitted by NCBI RefSeq	Complete Genome	5333942	5682322	2011-12-27	5867	PRJNA78789	SAMN02602959
