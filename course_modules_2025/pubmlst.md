@@ -163,6 +163,7 @@ While the rapid extraction of typing data is useful for a quick look, more detai
 The data required for this practical can be downloaded to the Linux virtual machine, so that it appears as a directory on your desktop with the following commands:
 
 ```
+cd
 mkdir Desktop/isolate_data
 cd Desktop/isolate_data
 wget https://github.com/WCSCourses/GCM_2025/raw/refs/heads/main/course_data_2025/Encapsulated_sequence_data/Thursday/Thursday.zip
