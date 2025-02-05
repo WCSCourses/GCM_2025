@@ -164,7 +164,7 @@ The data required for this practical can be downloaded to the Linux virtual mach
 
 ```
 mkdir Desktop/isolate_data
-cd isolate_data
+cd Desktop/isolate_data
 wget https://github.com/WCSCourses/GCM_2025/raw/refs/heads/main/course_data_2025/Encapsulated_sequence_data/Thursday/Thursday.zip
 unzip Thursday.zip
 ```
