@@ -160,6 +160,15 @@ You have been provided with FASTA files of the sequence contigs assembled from I
 #### Uploading isolate records to the database
 While the rapid extraction of typing data is useful for a quick look, more detailed analysis requires loading an isolate record and associated sequence data into the database.
 
+The data required for this practical can be downloaded to the Linux virtual machine, so that it appears as a directory on your desktop with the following commands:
+
+```
+mkdir Desktop/isolate_data
+cd isolate_data
+wget https://github.com/WCSCourses/GCM_2025/raw/refs/heads/main/course_data_2025/Encapsulated_sequence_data/Thursday/Thursday.zip
+unzip Thursday.zip
+```
+
 The first stage of this process is creating isolate records for each of the genomes we want to analyse. This can be done through the curation interface either record-by-record - which is ok if you only have one isolate to do, or more usually using a batch upload method. The batch upload can be prepared in Excel, or any other spreadsheet package, and then copy-and-pasted into the batch add web form. 
 
 1.	Select your user number on https://pubmlst.org/training/.
